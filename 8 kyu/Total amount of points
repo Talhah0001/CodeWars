@@ -1,0 +1,10 @@
+def points(games):
+    points = 0
+    for game in games:
+        if game[0] > game[2]:
+            points += 3
+        if game[0] == game[2]:
+            points += 1
+        if game[0] < game[2]:
+            points += 0
+    return points
