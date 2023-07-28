@@ -1,0 +1,7 @@
+def elevator(left, right, call):
+    L = abs(call-left) #abs return exact value
+    R = abs(call-right)
+    if L < R:
+        return "left"
+    else:
+        return "right"
