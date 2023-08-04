@@ -1,0 +1,6 @@
+def check_logs(log): 
+    count = 1
+    for i in range(len(log) - 1):
+        if log[i] >= log[i + 1]:
+            count += 1
+    return count
