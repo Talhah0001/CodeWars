@@ -1,0 +1,7 @@
+import time
+
+def make_me_slow():
+    ## Not anymore
+    time.sleep(10)
+    for i in range(1000000):
+        pass
